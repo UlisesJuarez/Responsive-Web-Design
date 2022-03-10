@@ -1,0 +1,54 @@
+body {
+    background-color: #74959A;
+}
+
+div {
+    padding: 6px 6px;
+}
+
+.dua-img{
+    background-color: #74959A;
+    text-align: center;
+}
+
+.name {
+    background-color: #1C658C;
+    text-align: center;
+}
+
+#main {
+    background-color: #1C658C;
+}
+
+#main img{
+    width:80%;
+}
+
+#main>div {
+    margin-bottom: 20px;
+    color: white;
+}
+
+.about {
+    display: flex;
+}
+
+.about a {
+    margin-left: 10px;
+}
+
+
+#tribute-info li {
+    text-align: left;
+}
+
+#tribute-info a {
+    text-decoration: none;
+    color: rgb(185, 223, 219);
+}
+
+@media(max-width:750px){
+    #main img{
+        width:90%;
+    }
+}
