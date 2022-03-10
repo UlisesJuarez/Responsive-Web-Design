@@ -1,0 +1,164 @@
+body {
+    background-color: #e8e8e8;
+}
+
+
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    min-height:70px;
+    padding: 0px 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #eee;
+}
+
+#header-img {
+    width:60px;
+}
+
+
+nav {
+    float: right;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav ul li {
+    text-decoration: none;
+    margin-right: 40px;
+    list-style: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #333;
+}
+nav ul li a:hover{
+    color: cornflowerblue;
+}
+
+#hero {
+    text-align: center;
+    margin-top: 70px;
+    padding: 20px 20px;
+
+}
+
+input {
+    border-radius: 8px;
+    border: 1px solid #eee;
+    height: 30px;
+    margin-top: 10px;
+    width: 200px;
+    text-align: center;
+}
+
+#features{
+    display:block;
+    width: 50%;
+    margin:30px auto;
+}
+
+#features .item {
+    display: flex;
+    margin: 0 auto;
+}
+
+
+#submit {
+    background-color: cornflowerblue;
+    color:#eee;
+    height: 35px;
+    border-radius: 10px;
+    border: 1px solid cornflowerblue;
+}
+#submit:hover{
+    background-color: #eee;
+    color: cornflowerblue;
+}
+
+
+.item i {
+    color: cornflowerblue;
+    margin-right: 20px;
+}
+
+#works {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+#pricing{
+    margin: 50px auto;
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#pricing>div{
+    width: 30%;
+    display: block;
+    text-align: center;
+    border: 1px solid cadetblue;
+    padding-bottom: 15px;
+}
+
+.plan{
+    background-color: cornflowerblue;
+    padding: 5px 5px;
+    color:#eee;
+}
+
+.button{
+    background-color: cornflowerblue;
+    color: #eee;
+    text-align: center;
+    width:60%;
+    margin: 0 auto;
+    outline:none;
+    border-radius: 10px;
+    height:35px;
+    border: 1px solid cornflowerblue;
+}
+
+.button:hover{
+    background-color: #eee;
+    color: cornflowerblue;
+}
+
+footer{
+    min-width: 50px;
+    padding:5px 5px;
+    background-color:#eee;
+    color: #333;
+    width: 100%;
+    text-align:center;}
+
+
+@media(max-width:860px){
+    #pricing{
+        width: 100%;
+        display: block;
+    }
+    #pricing>div{
+        width:60%;
+        margin: 20px auto;
+    }
+}
+@media(max-width:600px){
+    #pricing{
+        width: 100%;
+        display: block;
+    }
+    #pricing>div{
+        width:90%;
+        margin: 20px auto;
+    }
+}

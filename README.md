@@ -19,3 +19,9 @@ You can see the project on this link: https://codepen.io/ulisesjuarez/full/qBVzz
 ![](img/survey.JPG)
 
 ---
+
+## Build a product landing page
+
+You can see the project on this link: https://codepen.io/ulisesjuarez/full/YzEmpwP
+
+![](img/product.JPG)

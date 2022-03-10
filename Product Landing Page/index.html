@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product landing</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/690c3aebfa.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header id="header">
+        <img src="https://icons.iconarchive.com/icons/paomedia/small-n-flat/512/device-laptop-icon.png"  id="header-img" alt="">
+        <nav id="nav-bar">
+            <ul>
+                <li><a class="nav-link" href="#features">Features</a></li>
+                <li><a class="nav-link" href="#works">How it works</a></li>
+                <li><a class="nav-link" href="#pricing">Pricing</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div id="hero">
+        <h2>Free programming courses</h2>
+        <form action="https://www.freecodecamp.com/email-submit" method="post" id="form">
+            <input type="email" name="email" id="email" placeholder="Enter your email address" required><br>
+            <input id="submit" name="submit" type="submit" value="Get started">
+        </form>
+    </div>
+    <div class="container">
+        <section id="features">
+            <div class="item">
+                <i class="fab fa-brands fa-java fa-4x"></i>
+                <div>
+                    <h3>Java</h3>
+                    <p>You will learn the most important things about Java, servlets, hibernate and more.</p>
+                </div>
+            </div>
+            <div class="item">
+                <i class="fab fa-brands fa-python fa-4x"></i>
+                <div>
+                    <h3>Python</h3>
+                    <p>You will learn the most important things about Python, django, flask, api-rest, tkinter and more
+                    </p>
+                </div>
+            </div>
+            <div class="item">
+                <i class="fab fa-brands fa-node-js fa-4x"></i>
+                <div>
+                    <h3>Node</h3>
+                    <p>You will learn the most important things about Node.js, express, ejs, mongoose and more.</p>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <div id="works">
+        <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/MM6TjxrmvoU"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+    </div>
+    <div id="pricing">
+        <div>
+            <div class="plan">
+                <h4>Free plan</h4>
+            </div>
+            <div>
+                <h3>$0.00</h3>
+                <p>Limited video</p>
+                <p>Limited resources</p>
+                <p>Daily time limit</p>
+                <button class="button">SELECT</button>
+            </div>
+        </div>
+        <div>
+            <div class="plan">
+                <h4>Medium plan</h4>
+            </div>
+            <div>
+                <h3>$80</h3>
+                <p>+20 hours of video</p>
+                <p>More resources</p>
+                <p>Increase in maximum hours per day</p>
+                <button class="button">SELECT</button>
+            </div>
+        </div>
+        <div>
+            <div class="plan">
+                <h4>Premium plan</h4>
+            </div>
+            <div>
+                <h3>$120</h3>
+                <p>Unlimited video</p>
+                <p>Unlimited resources</p>
+                <p>Unlimited time</p>
+                <button class="button">SELECT</button>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p>Copyriht 2022, Ulises Juárez</p>
+    </footer>
+</body>
+
+</html>
