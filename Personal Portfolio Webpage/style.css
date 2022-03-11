@@ -40,14 +40,13 @@ nav>ul>li>a:hover{
 }
 
 section{
-    height: 100vh;
     width: 80%;
-    padding-top:50px;
     margin-left:10%;
     color:#eee;
 }
 #welcome-section{
     display: flex;
+    height: 100vh;
     justify-content: center;
     align-items: center;
 }
