@@ -25,3 +25,9 @@ You can see the project on this link: https://codepen.io/ulisesjuarez/full/qBVzz
 You can see the project on this link: https://codepen.io/ulisesjuarez/full/YzEmpwP
 
 ![](img/product.JPG)
+
+## Build a technical documentation page
+
+You can see the project on this link: https://codepen.io/ulisesjuarez/full/KKZPKLK
+
+![](img/documentation.JPG)
