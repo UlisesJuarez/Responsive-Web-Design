@@ -40,4 +40,4 @@ You can see the project on this link: https://codepen.io/ulisesjuarez/full/KKZPK
 
 You can see the project on this link: https://codepen.io/ulisesjuarez/full/LYePZNN
 
-![](img/)
+![](img/portfolio.JPG)
